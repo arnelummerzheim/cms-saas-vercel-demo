@@ -15,7 +15,8 @@ enum VSpacings {
 
 enum ColorClasses {
     black = 'bg-vulcan dark:bg-vulcan-85 text-white prose-h3:text-white prose-h2:text-white prose-figcaption:text-white prose-blockquote:text-white',
-    blue = 'bg-azure dark:bg-transparent dark:border-y-azure dark:border-y-4 text-white prose-h3:text-white prose-h2:text-white prose-figcaption:text-white prose-blockquote:text-white'
+    blue = 'bg-azure dark:bg-transparent dark:border-y-azure dark:border-y-4 text-white prose-h3:text-white prose-h2:text-white prose-figcaption:text-white prose-blockquote:text-white',
+    white = 'bg-white dark:bg-transparent dark:border-y-white dark:border-y-4 text-black prose-h3:text-black prose-h2:text-black prose-figcaption:text-black prose-blockquote:text-black'
 }
 
 export const DefaultGrid : DefaultGridComponent = ({ data, layoutProps, children, ...htmlProps }) => {
